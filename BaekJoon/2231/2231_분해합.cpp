@@ -12,6 +12,7 @@ int main(void)
 		int icpy = i;
 
 
+		//자릿수 합구하기
 		do {
 			sum += icpy % 10;
 			icpy /= 10;
