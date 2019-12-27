@@ -11,8 +11,7 @@ int main(void)
 		int sum = 0;
 		int icpy = i;
 
-
-		//자릿수 합구하기
+		//Digit Sum
 		do {
 			sum += icpy % 10;
 			icpy /= 10;
