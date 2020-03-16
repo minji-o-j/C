@@ -16,10 +16,10 @@
 //check[1] = -1;
 for (int i = 2; i <= m; i++)
 {
-	if (check[i] == 0) {
+	if (check[i] == 0) {	//0일때만 실행(다른 것에서 안걸렸을 때)
 	for (int j = i * 2; j <= m; j += i)
 	{
-		check[j] = 1;//소수가 아님을 표시
+		check[j] = 1;	//소수가 아님을 표시
 	}
 }
   ```
@@ -31,7 +31,7 @@ int mod(char *S, int p)//문자열 S가 p로 나누어지는지 확인하기 위
 {
 	// S는 수를 문자열로 표현한 것, 1234 -> "1234"
 	int find= 0;
-	for (int i = 0; S[i]; i++)//S의 index 범위에 벗어나면 종료
+	for (int i = 0; S[i]; i++)	//S의 index 범위에 벗어나면 종료
 		find= (find* 10 + (S[i] - '0')) % p;
 	return find;
 }
