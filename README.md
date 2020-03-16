@@ -40,6 +40,10 @@ int mod(char *S, int p)//문자열 S가 p로 나누어지는지 확인하기 위
 ---
 ## 셸 정렬
 - 백준 2309번, 3040번
+- 삽입정렬을 보완한 알고리즘
+- 삽입정렬이 어느정도 정렬된 배열에 대해 빠른 것에 착안
+- 간격의 초깃값은 g/2
+- 간격은 홀수인 것이 좋다.
 ```C
 //셸정렬 함수
 void inc_insertion_sort(int list[], int first, int last, int gap)
@@ -53,14 +57,15 @@ void inc_insertion_sort(int list[], int first, int last, int gap)
 	}
 }
 //
-void shell_sort(int list[], int n)   // n = size
+void shell_sort( int list[], int n ) // n = size
 {
 	int i, gap;
-	for (gap = 1; gap <= n / 9; gap = 3 * gap + 1); 
-	while (gap > 0) {
-		for (i = 0; i < gap; i++)
-			inc_insertion_sort(list, i, n - 1, gap);
-		gap /= 3;
+	for( gap=n/2; gap>0; gap = gap/2 )
+	{
+		if( (gap%2) == 0 )
+			gap++;	//gap는를 홀수로 만들어주기 위하여
+		for(i=0;i<gap;i++) // 부분 리스트의 개수는 gap
+			inc_insertion_sort(list, i, n-1, gap);
 	}
 }
 ```
