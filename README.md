@@ -70,3 +70,7 @@ void shell_sort( int list[], int n ) // n = size
 }
 ```
 ---
+## DFS
+---
+## BFS
+---
