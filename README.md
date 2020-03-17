@@ -4,7 +4,7 @@
 [문자열에 들어있는 숫자가 p로 나누어지는지 판별하는 방법](#문자열에-들어있는-숫자가-p로-나누어지는지-판별하는-방법)  
 [셸 정렬](#셸-정렬)  
 [scanf 정규식](#scanf-정규식)  
-[EOF(입력 끝 찾기)](#EOF(입력-끝-찾기))
+[EOF(입력 끝 찾기)](#EOF(입력-끝-찾기))  
 [정수의 이진수 변환](#정수의-이진수-변환)
 
 ---
@@ -117,7 +117,7 @@ getchar();
 - \n이 getchar에 들어가는 게 아니라서 오류
 
 ---
-## EOF(입력 끝 찾기
+## EOF(입력 끝 찾기)
 참조 링크 [1](https://m.blog.naver.com/PostView.nhn?blogId=tipsware&logNo=221315155895&proxyReferer=http%3A%2F%2Fwww.google.com%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D1%26ved%3D2ahUKEwju8omru6HoAhXXPXAKHeY9An0QFjAAegQIBxAB%26url%3Dhttp%253A%252F%252Fm.blog.naver.com%252Ftipsware%252F221315155895%26usg%3DAOvVaw1y3Yp28tEEyZUuvQjCdcFf)
 
 ---
