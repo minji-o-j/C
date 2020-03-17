@@ -3,6 +3,7 @@
 [에라토스테네스의 체](#에라토스테네스의-체)  
 [문자열에 들어있는 숫자가 p로 나누어지는지 판별하는 방법](#문자열에-들어있는-숫자가-p로-나누어지는지-판별하는-방법)  
 [셸 정렬](#셸-정렬)  
+[scanf 선택적 문자열 받기](#scanf-선택적-문자열-받기)
 
 ---
 ## 에라토스테네스의 체
@@ -69,6 +70,9 @@ void shell_sort( int list[], int n ) // n = size
 	}
 }
 ```
+---
+## scanf 선택적 문자열 받기
+- 백준 [11718](https://github.com/minji-o-j/C/blob/master/BaekJoon/11718/11718_%EA%B7%B8%EB%8C%80%EB%A1%9C%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.cpp), [11719](https://github.com/minji-o-j/C/blob/master/BaekJoon/11719/11719_%EA%B7%B8%EB%8C%80%EB%A1%9C%20%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0%202.cpp)번
 ---
 ## DFS
 ---
