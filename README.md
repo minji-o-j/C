@@ -147,5 +147,5 @@ getchar();
 
 
 - 자릿수 마다 평균을 구해서 더하면 평균값이 나옴
-- (a,b,c) (d,e)의 조합으로 ad, ae, bd, be, cd, ce 를 만들어야 할 때  
-> ex ) avg(a,b,c)*10 + avg(d,e)
+	- (a,b,c) (d,e)의 조합으로 ad, ae, bd, be, cd, ce 를 만들어야 할 때  
+	- > avg(a,b,c)*10 + avg(d,e)
